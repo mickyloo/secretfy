@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Secretfy Demo</title>
+        <link rel="stylesheet" href="secretfy.css" type="text/css" charset="utf-8" />
+        <style type="text/css">
+            * { font-family: sans-serif; }
+
+            input.secretfy {
+                font-family: 'secretfy';
+                width: 15em;
+            }
+
+            #demo1 input.secretfy:focus {
+                font-family: initial;
+            }
+
+            #demo2 input.secretfy:focus, #demo2 input.secretfy:hover {
+                font-family: initial;
+            }
+        </style>
+    </head>
+
+    <body>
+        <h2> Reveal on focus</h2>
+        <div id="demo1">
+            <div>
+                <label>CC#: </label>
+                <input type="text" class="secretfy" size="16" value="4111111111111111">
+            </div>
+        </div>
+        <h2> Reveal on focus and hover</h2>
+        <div id="demo2">
+            <div>
+                <label>CC#: </label>
+                <input type="text" class="secretfy" size="16" value="5555555555554444">
+            </div>
+        </div>
+    </body>
+</html>
+    
